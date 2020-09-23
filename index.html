@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Form Validator</title>
+    <meta
+      name="A front end form validator"
+      content="A quick little form validator using vanilla js."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <!-- CARD BODY -->
+    <div class="container">
+      <form action="" id="form" class="form">
+        <h2>Register With Us</h2>
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter username" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" />
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="text"
+            id="confirm-password"
+            placeholder="Confirm password"
+          />
+          <small>Error message</small>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+    <script src="main.js" async defer></script>
+  </body>
+</html>
